@@ -1,0 +1,15 @@
+//nesting is a feature in SASS which is same as nesting loops or nesting a function inside another .
+//Here we can mention style of one element inside style of another all the styles of the previous element will be applicable here also
+header{
+    background:linear-gradient(#a5aae9cc,#7d8df5);
+nav{
+    border:5px solid teal;
+
+    ul {
+        display:flex;
+        li{
+            font-weight:500;
+        }
+    }
+}
+}
