@@ -5,19 +5,21 @@ header{
     background:rgb(255, 191, 0);
     font-weight: 800;
     margin:0;
+    padding-top:15px;
 }
 
 section{
     background:rgb(255, 247, 1);
      flex-grow: 1;
      margin:0;
-     padding:5px;
+     padding-top:15px;
 }
 
 footer{
     background:rgb(255, 191, 0);
     height:50px;
     margin:0; 
-    padding:5px;
-    font-weight: 500; 
+    padding-top:25px;
+    font-weight:800;
+    color:rgb(0, 0, 0);
 }
