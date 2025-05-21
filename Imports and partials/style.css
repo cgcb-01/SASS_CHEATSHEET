@@ -1,13 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 header {
   height: 70px;
   background: rgb(255, 191, 0);
   font-weight: 800;
+  margin: 0;
 }
 
 section {
   background: rgb(255, 247, 1);
+  flex-grow: 1;
+  margin: 0;
 }
 
 footer {
   background: rgb(255, 191, 0);
+  height: 50px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

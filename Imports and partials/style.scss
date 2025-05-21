@@ -1,14 +1,20 @@
+@import "./components/resets.scss";
+
 header{
     height:70px;
     background:rgb(255, 191, 0);
     font-weight: 800;
+    margin:0;
 }
 
 section{
     background:rgb(255, 247, 1);
+     flex-grow: 1;
+     margin:0;
 }
 
 footer{
     background:rgb(255, 191, 0);
-    
+    height:50px;
+    margin:0;  
 }
