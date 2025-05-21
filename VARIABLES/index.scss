@@ -1,0 +1,7 @@
+//SASS is the implementation of css as a programming language where CSS can be implemented as variables functions etc.
+
+$color:teal; //Variable being declared
+body
+{
+    background:$color;  //That variable is used but have to use$ before the name
+}
