@@ -99,7 +99,7 @@ main{
     {
        width:400px;
        height:300px;
-       padding:20px;
+       padding:30px;
        margin:0.6rem;
        font-family: sans-serif;
        h1{
@@ -122,6 +122,9 @@ main{
 {
     width:400px;
     margin:30px;
+    border-radius:4px;
+    filter: contrast(115%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
     
 }

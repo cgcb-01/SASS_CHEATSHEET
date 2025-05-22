@@ -83,7 +83,7 @@ main button:hover {
 .card .card-container {
   width: 400px;
   height: 300px;
-  padding: 20px;
+  padding: 30px;
   margin: 0.6rem;
   font-family: sans-serif;
 }
@@ -105,4 +105,7 @@ main button:hover {
 .card .card-img {
   width: 400px;
   margin: 30px;
+  border-radius: 4px;
+  filter: contrast(115%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=Project3.css.map */
