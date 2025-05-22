@@ -4,15 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(222, 222, 222);
+}
+
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: sans-serif;
-  position: sticky;
-  width: 98%;
-  margin: 15px;
-  color: rgb(247, 246, 209);
+  padding: 10px 1%;
+  height: 60px;
+  background: rgb(240, 239, 239);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 nav .logo-container {
   margin-left: 40px;
@@ -65,4 +72,37 @@ main button {
 main button:hover {
   background: rgba(223, 219, 219, 0.9);
   font-weight: 500;
+}
+
+.card {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-container {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  margin: 0.6rem;
+  font-family: sans-serif;
+}
+.card .card-container h1 {
+  font-size: 3rem;
+  font-family: serif;
+}
+.card .card-container p {
+  margin: 20px 0;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+}
+.card .card-container a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: black;
+}
+.card .card-img {
+  width: 400px;
+  margin: 30px;
 }/*# sourceMappingURL=Project3.css.map */
