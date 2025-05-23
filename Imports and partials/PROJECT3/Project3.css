@@ -132,4 +132,47 @@ main button:hover {
   height: 40vh;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   filter: contrast(120%);
+}
+
+footer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer h1 {
+  text-align: center;
+  font-family: serif;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+footer section input {
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  width: 200px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  border-width: 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+footer section textarea {
+  padding: 20px;
+  width: 415px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-width: 0px;
+  background: rgb(243, 241, 241);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+footer section a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=Project3.css.map */
