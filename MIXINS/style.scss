@@ -1,0 +1,17 @@
+@mixin button-styles
+{
+    background: teal;
+    color:white;
+    border:none;
+    cursor:pointer;
+    padding:10px 20px;
+}
+.lm-btn
+{
+    @include button-styles;
+}
+.dwn
+{
+    @include button-styles;
+    background: green;
+}

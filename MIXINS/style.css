@@ -1,1 +1,16 @@
-/*# sourceMappingURL=style.css.map */
+.lm-btn {
+  background: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.dwn {
+  background: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: green;
+}/*# sourceMappingURL=style.css.map */
