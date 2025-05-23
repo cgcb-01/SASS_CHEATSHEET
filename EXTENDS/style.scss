@@ -1,0 +1,13 @@
+.btn
+{
+    background:transparent;
+    border:none;
+    background: rgb(210,22,94);
+    color:white;
+    padding:10px 20px;
+}
+.dwn
+{
+    @extend .btn;
+    background: black;
+}
