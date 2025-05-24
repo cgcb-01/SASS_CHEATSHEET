@@ -8,18 +8,17 @@
     padding:random($limit:3);
     padding:unit(20em);
     padding:unitless(20em);
-
-    //sass string functions
-   // font-family:quote(20); error as inside it there should be a string
    
 }
+ //sass string functions
+   // font-family:quote(20); error as inside it there should be a string
 .string
 {
  font-family:quoute(arial);
-    font-family:unquote(arial);
+    font-family:unquote("arial");//unquoutes the one inside it
     font-family:to-upper-case("sutapa");
     font-family:to-lower-case("SutaPA");
     font-family:str-length("Sutapa");
-    font-family:str-index("sutapa","a");
-    font-family: str-insert("apple","p",2);
+    font-family:str-index("sutapa","a");  //=6 1 based index and the last occurence is taken
+    font-family: str-insert("apple","p",1);//1 based index will insert at that index and all other will be shifted right
 }
