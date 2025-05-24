@@ -21,4 +21,17 @@
     font-family:str-length("Sutapa");
     font-family:str-index("sutapa","a");  //=6 1 based index and the last occurence is taken
     font-family: str-insert("apple","p",1);//1 based index will insert at that index and all other will be shifted right
+    font-family:unique-id();
+}
+
+.colors
+{
+//Built in colors function
+$initial-color:blue;
+width:600px;
+height:100px;
+background: darken($initial-color,40);
+background: lighten($initial-color, $amount: 50);
+background:adjust-hue($color: #000000, $degrees: 0);
+background: mix($color: #000000, $color: #ffffff, $weight: 70);
 }
