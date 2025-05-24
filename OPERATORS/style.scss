@@ -1,0 +1,21 @@
+.selector              //Match the results with those produced in the style.css
+{
+    //EQUALITY OPERATORS
+    padding:10px==10px;  //true
+    padding:10px==10rem;//false
+    padding:10px==20px;//false
+    font-family:"arial"==arial;  //it is true as both are same no difference for outside and inside""
+    padding:(6px 8px 10px)==(6px 20px); //false
+    padding:(6px 6px 10px 10px)==(6px 10px);   // it is also false
+
+    //RELATIONAL OPERATORS
+    padding:10px>30px; //false
+    padding:10px<30px; //true
+
+    //BOOLEAN OPERATORS
+    padding:arial=="arial" and 10px==10; //false
+    padding:arial=="arial" and 10px==20px; //false
+    padding:arial=="arial" or 10px==20px;  //true
+    padding:arial=="serif" or 10px==20px;  //false
+    padding:10px==10px; //true
+}
