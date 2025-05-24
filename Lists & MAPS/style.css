@@ -21,7 +21,8 @@
   background-color: teal;
   color: white;
   padding: 10px, 10px, 20px, 30px;
-  height: 80px;
+  height: -moz-fit-content;
+  height: fit-content;
   padding-top: 10px;
 }
 .lists button {

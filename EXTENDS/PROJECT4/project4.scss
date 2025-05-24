@@ -83,46 +83,44 @@ header {
     font-family: serif;
   }
 }
-h1{
-  font-size: 3rem;
-    padding:30px;
-    font-family: serif;
-    text-align: center;
-}
 
 //introduction
 .introduction{
-    height:70vh;
+    height:80vh;
     display:flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom:50px;
     .card-container
     {
        width:400px;
        height:300px;
        padding:30px;
-       margin:40px;
-       margin-top: 70px;
+       margin:0.6rem;
        font-family: sans-serif;
-       text-align:center;
        h1{
         font-size: 3rem;
         font-family: serif;
-        padding:0px;
+        text-align: left;
+        padding-left: 0px;
     }
     p{
-       
-        margin-bottom:40px;
-        margin-top:20px;
+        margin:20px 0px;
         line-height: 1.5rem;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+        padding:10px 20px;
+        background-color: black;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
     }
     }
 .pic
 {
     width:400px;
     margin:30px;
-    height:250px;
     border-radius:4px;
     filter: contrast(115%);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -130,6 +128,15 @@ h1{
 }
 
 //Card image
+.dish{
+  margin-top:8rem;
+  h1{
+    font-size: 3rem;
+    padding:20px;
+    font-family: serif;
+    text-align: center;
+  }
+ 
 section
 {
   display:flex;
@@ -164,4 +171,53 @@ section
     }
   }
 }
+}
 
+//Footer section
+.order{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h1{
+        text-align: center;
+        font-family: serif;
+        margin-bottom: 3rem;
+        font-size: 2rem;
+    }
+    section{
+    input{
+        padding:10px 20px;
+        margin-right:10px;
+        margin-bottom:20px;
+        width:200px;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        border-width: 0px;
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    textarea{
+        padding:20px;
+        width:415px;
+        height:200px;
+        margin-bottom:20px;
+        border-radius: 5px;
+        border-width: 0px;
+        background: rgb(243, 241, 241);
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    a{
+        text-decoration: none;
+        color:white;
+        background: black;
+        padding:10px 20px;
+        font-family:sans-serif;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+}
+}

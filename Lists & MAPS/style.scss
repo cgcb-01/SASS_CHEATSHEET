@@ -21,10 +21,10 @@ $list3:rgb(255, 225, 0),grey,teal,black,green,white;
         text-align: center;
         font-family: length($list1);
         margin:nth($list1, $n:3 );
-        background-color: nth($list3, $n:3 );
+        background-color: nth($list3, $n:3);
         color:nth(set-nth($list3, $n:2 , $value:white ), $n:2 );
         padding:join((10px,10px),(20px,30px));
-        height:80px;
+        height:fit-content;
         padding-top:nth($list1, $n:6)
     }
     button{
@@ -35,4 +35,9 @@ $list3:rgb(255, 225, 0),grey,teal,black,green,white;
         width:100px;
         padding:append($list1,80px);
     }
+}
+
+.selector
+{
+    
 }
