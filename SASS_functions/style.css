@@ -1,12 +1,19 @@
 .selector {
   padding: 60px;
   padding: 2px;
-  padding: 0.5971321887;
-  padding: 9;
-  padding: 2;
+  padding: 0.6043021137;
+  padding: 3;
+  padding: 1;
   padding: "em";
   padding: false;
+}
+
+.string {
   font-family: quoute(arial);
   font-family: arial;
   font-family: "SUTAPA";
+  font-family: "sutapa";
+  font-family: 6;
+  font-family: 4;
+  font-family: "appple";
 }/*# sourceMappingURL=style.css.map */
