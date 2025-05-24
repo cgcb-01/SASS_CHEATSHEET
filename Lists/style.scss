@@ -1,0 +1,38 @@
+$list1:20px 40px 30px 70px 0px 10px;
+$list2:sans-serif,serif;
+$list3:rgb(255, 225, 0),grey,teal,black,green,white;
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.lists
+{
+    margin:(nth($list1,2));
+     padding:(nth($list1,2),nth($list1,1));
+    h1{
+        background-color:nth($list3,1) ;
+        height:nth($list1,4);
+        text-align: center;
+    }
+    p{
+        font-family:nth($list2, $n:1 );
+        text-align: center;
+        font-family: length($list1);
+        margin:nth($list1, $n:3 );
+        background-color: nth($list3, $n:3 );
+        color:nth(set-nth($list3, $n:2 , $value:white ), $n:2 );
+        padding:join((10px,10px),(20px,30px));
+        height:80px;
+        padding-top:nth($list1, $n:6)
+    }
+    button{
+        padding:10px,20px;
+        background: nth($list3, $n:5);
+        color:nth($list3, $n:6);
+        height:30px;
+        width:100px;
+        padding:append($list1,80px);
+    }
+}
